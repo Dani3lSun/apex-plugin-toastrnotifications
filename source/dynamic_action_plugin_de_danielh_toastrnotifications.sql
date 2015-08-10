@@ -169,7 +169,7 @@ wwv_flow_api.create_plugin(
 'This plugin can be used to display info, success, warning or error messages.',
 'Original from: https://github.com/CodeSeven/toastr'))
 ,p_version_identifier=>'1.0'
-,p_about_url=>'http://blog.danielh.de/'
+,p_about_url=>'https://github.com/Dani3lSun/apex-plugin-toastrnotifications'
 ,p_files_version=>23
 );
 wwv_flow_api.create_plugin_attribute(
