@@ -3,7 +3,7 @@
   "version" : "1.0",
   "description" : "Dynamic Action Plugin using OpenSource JS framework toastr to display notifications. This plugin can be used to display info, success, warning or error messages.",
   "keywords" : ["notification", "toastr"],
-  "homepage" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications"
+  "homepage" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications",
   "bugs" : {
     "url" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications/issues",
     "email" : "daniel@danielh.de"
@@ -12,7 +12,7 @@
   "author" : {
     "name" : "Daniel Hochleitner",
     "email" : "daniel@danielh.de",
-    "url" : "http://blog.danielh.de/",
+    "url" : "http://blog.danielh.de/"
   },
   "repository" : {
     "type" : "git",
