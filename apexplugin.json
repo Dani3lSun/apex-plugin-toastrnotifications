@@ -1,0 +1,36 @@
+{
+  "name" : "toastr Notifications",
+  "version" : "1.0",
+  "description" : "Dynamic Action Plugin using OpenSource JS framework toastr to display notifications. This plugin can be used to display info, success, warning or error messages.",
+  "keywords" : ["notification", "toastr"],
+  "homepage" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications"
+  "bugs" : {
+    "url" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications/issues",
+    "email" : "daniel@danielh.de"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Daniel Hochleitner",
+    "email" : "daniel@danielh.de",
+    "url" : "http://blog.danielh.de/",
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications.git"
+  },
+  "private" : true,
+
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["5.0.0"],
+      "plugin" : {
+        "internal-name" : "DE.DANIELH.TOASTRNOTIFICATIONS",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=57743:2"
+      }
+    }
+  }
+
+
+}
