@@ -27,4 +27,6 @@ Create a new Dynamic Action with event "on load" or on "Button --> Click". As Ac
 ##Demo Application
 https://apex.oracle.com/pls/apex/f?p=57743:2
 
+##Preview
+![](https://github.com/Dani3lSun/apex-plugin-toastrnotifications/blob/master/preview.png)
 ---
