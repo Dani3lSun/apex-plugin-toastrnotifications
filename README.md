@@ -1,4 +1,4 @@
-#Oracle Apex DynamicAction Plugin - toastr Notifications
+#Oracle APEX DynamicAction Plugin - toastr Notifications
 Dynamic Action Plugin using OpenSource JS framework "toastr" to display notifications.
 This plugin can be used to display info, success, warning or error messages. (https://github.com/CodeSeven/toastr)
 
