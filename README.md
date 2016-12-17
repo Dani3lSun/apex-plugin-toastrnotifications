@@ -25,7 +25,7 @@ The plugin settings are highly customizable and you can change:
 Create a new Dynamic Action with event "on load" or on "Button --> Click". As Action choose "toastr Notifications".
 
 ## Demo Application
-https://apex.oracle.com/pls/apex/f?p=57743:2
+https://apex.oracle.com/pls/apex/f?p=APEXPLUGIN
 
 ## Preview
 ![](https://github.com/Dani3lSun/apex-plugin-toastrnotifications/blob/master/preview.png)
