@@ -1,6 +1,6 @@
 {
   "name" : "toastr Notifications",
-  "version" : "1.0",
+  "version" : "1.0.1",
   "description" : "Dynamic Action Plugin using OpenSource JS framework toastr to display notifications. This plugin can be used to display info, success, warning or error messages.",
   "keywords" : ["notification", "toastr"],
   "homepage" : "https://github.com/Dani3lSun/apex-plugin-toastrnotifications",

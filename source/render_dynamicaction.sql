@@ -1,9 +1,9 @@
-  /*-------------------------------------
-   * toastr Functions
-   * Version: 1.0 (04.08.2015)
-   * Author:  Daniel Hochleitner
-   *-------------------------------------
-  */
+/*-------------------------------------
+ * toastr Functions
+ * Version: 1.0.1 (24.10.2017)
+ * Author:  Daniel Hochleitner
+ *-------------------------------------
+*/
 FUNCTION render_toastr(p_dynamic_action IN apex_plugin.t_dynamic_action,
                        p_plugin         IN apex_plugin.t_plugin)
   RETURN apex_plugin.t_dynamic_action_render_result IS
@@ -30,6 +30,9 @@ BEGIN
     apex_plugin_util.debug_dynamic_action(p_plugin         => p_plugin,
                                           p_dynamic_action => p_dynamic_action);
   END IF;
+  --
+  -- Escaping
+  l_text := apex_escape.json(l_text);
   --
   -- toastr CSS
   apex_css.add_file(p_name      => 'toastr.min',

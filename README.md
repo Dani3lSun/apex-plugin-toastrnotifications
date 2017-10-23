@@ -4,6 +4,9 @@ This plugin can be used to display info, success, warning or error messages. (ht
 
 
 ## Changelog
+
+#### 1.0.1 - Added HTML escaping to Text inputs
+
 #### 1.0 - Initial Release
 
 ## Install
